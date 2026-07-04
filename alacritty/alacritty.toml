@@ -1,0 +1,55 @@
+[general]
+import = ["/Users/mohsani/.config/alacritty/themes/carbonfox.toml"]
+live_config_reload = true
+
+[cursor]
+style = "Block"
+unfocused_hollow = false
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 17
+
+[font.bold]
+family = "Inconsolata Nerd Font Mono"
+style = "Regular"
+
+[font.glyph_offset]
+# y = 1
+
+[font.italic]
+family = "Inconsolata Nerd Font Mono"
+style = "Regular"
+
+[font.normal]
+family = "Inconsolata Nerd Font Mono"
+style = "Regular"
+
+[font.offset]
+# y = 1
+
+[scrolling]
+history = 10000
+
+[window]
+dynamic_title = true
+decorations = "Buttonless"
+decorations_theme_variant = "Dark"
+opacity = 1
+blur = true
+
+
+[window.padding]
+y = 64
+x = 10
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login"]
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
