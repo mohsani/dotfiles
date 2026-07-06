@@ -1,0 +1,30 @@
+# carbonfox theme for lazygit (matches Alacritty carbonfox palette)
+gui:
+  theme:
+    activeBorderColor:
+      - "#3ddbd9" # teal — focused panel
+      - bold
+    inactiveBorderColor:
+      - "#484848" # bright black
+    searchingActiveBorderColor:
+      - "#08bdba" # yellow/teal
+      - bold
+    optionsTextColor:
+      - "#78a9ff" # blue
+    selectedLineBgColor:
+      - "#2a2a2a" # selection background
+    inactiveViewSelectedLineBgColor:
+      - "#222222" # dim black
+    cherryPickedCommitBgColor:
+      - "#2a2a2a"
+    cherryPickedCommitFgColor:
+      - "#be95ff" # magenta
+    markedBaseCommitBgColor:
+      - "#2a2a2a"
+    markedBaseCommitFgColor:
+      - "#08bdba"
+    unstagedChangesColor:
+      - "#ee5396" # red/pink
+    defaultFgColor:
+      - "#f2f4f8" # foreground
+  authorColorDefault: "#78a9ff"
